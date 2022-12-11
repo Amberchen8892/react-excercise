@@ -1,0 +1,16 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
