@@ -47,12 +47,9 @@ function ExcerciseThree() {
         setColors(newObject)
     }
     useEffect(() => {
-        getColor(colors, true)
-        // console.log('getColor',getColor(colors, true));
         if(getColor(colors, true) !== undefined){
             selectedRefs.current.map(el => (
                 el.style.backgroundColor = theme[getColor(colors,true)]
-                
             ))
         } else {
             selectedRefs.current[0].style.backgroundColor = theme['green']
@@ -60,8 +57,8 @@ function ExcerciseThree() {
             selectedRefs.current[2].style.backgroundColor = theme['pink']
             selectedRefs.current[3].style.backgroundColor = theme['blue']
         }
-        
     })
+
     function getColor(obj, value) {
         return Object.keys(obj).find(key => obj[key] === value);
       }

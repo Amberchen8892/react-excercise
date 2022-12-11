@@ -16,3 +16,22 @@ body{
   align-items: center;
   margin: 20px 0
 }
+
+.tonyBoxColor > div {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+}
+
+.tonyBoxColor input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}

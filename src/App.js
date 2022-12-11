@@ -2,6 +2,7 @@ import "./App.css";
 import ExcerciseThree from "./pages/ExcerciseThree";
 import ExcerciseTwo from "./pages/ExcerciseTwo";
 import TonyTableUser from "./pages/TonyTableUser";
+import TonyBoxColor from "./pages/TonyBoxColor";
 
 const tablHeaderBestHunter = [
   {
@@ -69,7 +70,11 @@ const tablHeaderBestSeller = [
 function App() {
   return (
     <>
-      {/* <ExcerciseThree /> */}
+      <h2>Box Color</h2>
+      <ExcerciseThree />
+
+      <h2>Tony Box Color</h2>
+      <TonyBoxColor />
 
       <h2>Table</h2>
       {/* <ExcerciseTwo /> */}
